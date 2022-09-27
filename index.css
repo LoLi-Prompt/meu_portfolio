@@ -360,7 +360,7 @@ footer p {
 
 /* Media Queries Mobile */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 412px) {
     #navbar {
         padding: 15px;
         flex-direction: column-reverse;
