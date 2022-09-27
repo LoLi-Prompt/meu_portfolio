@@ -1,0 +1,598 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EEB2C9;
+    color: rgb(255, 255, 255);
+    background: rgba(0,0,0,0.8)url(fundo_inicio.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    font-family: 'Play', sans-serif;
+}
+#navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+    font-size: 22px;
+}
+.navButton {
+    width: 150px;
+    height: 50px;
+    background-color: #00000000;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+}
+.navButton:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: .7s;
+}
+.navButtonHab {
+    width: 150px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+}
+.navButtonHab:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: .7s;
+}
+
+li {
+    margin-right: 10px;
+}
+
+#inicio {
+    height: 600px;
+    display: flex;
+    padding-top: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+
+.itensInicio {
+    margin-top: 120px;
+}
+.itensInicio h1 {
+    font-size: 18px;
+}
+.itensInicio h2 {
+    font-size: 24px;
+}
+
+.linkedin {
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.linkedin:hover {
+    background-color: rgb(79, 220, 255);
+    transition: .7s;
+}
+.github {
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #191a35;
+    border-radius: 10px;
+    border: none;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.github:hover {
+    background-color: #feffff;
+    color: #191a35;
+    transition: .7s;
+}
+
+#intersection {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+    color: #000000;
+    background:rgba(0,0,0,0.1)url(muro-fundo.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#sobreMin {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Play', sans-serif;
+    font-size: 22px;
+    background-color: #B2B6EE;
+    color: #ffffff;
+    background:rgba(0,0,0,0.9)url(fundo_sobreMim.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.sobreMin_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.itensSobreMin {
+    align-items: center;
+    justify-items: center;
+    margin-right: 150px;
+}
+.paragrafoSobre {
+    width: 500px;
+    margin-top: 30px;
+}
+.perfil1{
+    opacity: 0.8;
+}
+.perfil2 {
+    margin-left: 50px;
+    opacity: 0.8;
+}
+
+#projetos {
+    background-color: #F4C4A9;
+    height: 800px;
+    padding-top: 220px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    background:rgba(0,0,0,0.9)url(fundo_projetos.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#projetos h1 {
+    font-size: 40px;
+}
+.projetosNav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+}
+.textoProjeto {
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 28px;
+    font-family: 'Play', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonProjNetflix {
+    width: 300px;
+    height: 300px;
+    background:rgba(0,0,0,0.5)url(netflix.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Play', sans-serif;
+}
+.buttonProjInsta {
+    width: 300px;
+    height: 300px;
+    background: rgba(0,0,0,0.5)url(insta.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Play', sans-serif;
+}
+.buttonProjSnake{
+    width: 300px;
+    height: 300px;
+    background: rgba(0,0,0,0.5)url(snake.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Play', sans-serif;
+}
+
+#habilidades {
+    height: 720px;
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    background-color: #AAA4BF;
+    color: #ffffff;
+    background:rgba(0,0,0,0.9)url(fundo_hab.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#habilidades h1 {
+    font-size: 40px;
+}
+
+.containerHabilidade {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.listaHabilidade {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+}
+.buttonUm {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    background: url(html5.png); /* <a href="https://www.flaticon.com/free-icons/html5" title="html5 icons">Html5 icons created by Freepik - Flaticon</a>*/
+    background-size: cover;
+    border: none;
+}
+.buttonDois {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    background: url(javascript.png); /* <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Freepik - Flaticon</a> */
+    background-size: cover;
+    border: none;
+}
+.buttonTres {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    background: url(react.png); /* <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>*/
+    background-size: cover;
+    border: none;
+}
+.buttonQuatro {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    background: url(github.png); /* <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a>*/
+    background-size: cover;
+    border: none;
+}
+.buttonCinco {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    background: url(database.png); /* <a href="https://www.flaticon.com/free-icons/data" title="data icons">Data icons created by Freepik - Flaticon</a>*/
+    background-size: cover;
+    border: none;
+}
+.buttonSeis {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    background: url(english.png); /* <a href="https://www.flaticon.com/free-icons/english" title="english icons">English icons created by Freepik - Flaticon</a>*/
+    background-size: cover;
+    border: none;
+}
+.habilidadeMouse {
+    max-width: 320px;
+    margin-left: 50px;
+    font-family: 'Play', sans-serif;
+    font-size: 24px;
+}
+
+#navbarEnd {
+    margin-top: 200px;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+    font-size: 22px;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.navButtonEnd {
+    width: 150px;
+    height: 50px;
+    background-color:  #000000;
+    border-radius: 10px;
+    border: 1px solid black;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Aboreto', cursive;
+}
+.navButtonEnd:hover {
+    background-color: #E94E77;
+    border: 1px solid #E94E77;
+    color: #ffffff;
+    transition: .7s;
+}
+footer {
+    background-color: #000000;
+    font-family: 'Play', sans-serif;;
+    color: #ffffff;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer p {
+    margin-top: 10px;
+}
+
+
+/* Media Queries Mobile */
+
+@media screen and (max-width: 650px) {
+    #navbar {
+        padding: 15px;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: #191a3500;
+        margin-top: 50px;
+    }
+    .navButton {
+        width: 250px;
+        height: 50px;
+        font-size: 24px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .navButtonHab {
+        width: 250px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .imagemInicio {
+        display: none;
+    }
+
+    .imagemSobre {
+        display: none;
+    }
+
+    #intersection {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    color: #000000;
+    background:rgba(0,0,0,0.1)url(muro-fundo.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    }
+
+
+    #sobreMin {
+        height: 1000px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        font-family: 'Play', sans-serif;
+        font-size: 22px;
+        background-color: #B2B6EE;
+        color: #ffffff;
+        background:rgba(0,0,0,0.8)url(fundo_sobreMim.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+        
+    }
+    
+    .sobreMin_2 {
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        margin-left: 140px;
+    }
+    .itensSobreMin {
+        align-items: center;
+        justify-items: center;
+    }
+    .paragrafoSobre {
+        max-width: 300px;
+        margin-top: 30px;
+    }
+
+    #projetos {
+        background-color: #F4C4A9;
+        height: 800px;
+        padding-top: 80px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background:rgba(0,0,0,0.9)url(fundo_projetos.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    .projetosNav {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .textoProjeto {
+        display: none;
+    }
+
+    .buttonProjNetflix {
+        width: 200px;
+        height: 200px;
+        background:rgba(0,0,0,0.5)url(netflix.png);
+        background-size: cover;
+        background-blend-mode: darken;
+        color: #ffffff;
+        font-size: 28px;
+        font-family: 'Play', sans-serif;
+        margin-bottom: 15px;
+    }
+    .buttonProjInsta {
+        width: 200px;
+        height: 200px;
+        background: rgba(0,0,0,0.5)url(insta.png);
+        background-size: cover;
+        background-blend-mode: darken;
+        color: #ffffff;
+        font-size: 28px;
+        font-family: 'Play', sans-serif;
+        margin-bottom: 15px;
+    }
+    .buttonProjSnake{
+        width: 200px;
+        height: 200px;
+        background: rgba(0,0,0,0.5)url(snake.png);
+        background-size: cover;
+        background-blend-mode: darken;
+        color: #ffffff;
+        font-size: 28px;
+        font-family: 'Play', sans-serif;
+        margin-bottom: 15px;
+    }
+
+    #habilidades {
+        height: 720px;
+        padding-top: 200px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #AAA4BF;
+        color: #ffffff;
+        background:rgba(0,0,0,0.9)url(fundo_hab.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    #habilidades h1 {
+        font-size: 38px;
+    }
+    
+    .containerHabilidade {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .listaHabilidade {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 120px);
+    }
+    .buttonUm {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+        margin: 10px;
+        background: url(html5.png); /* <a href="https://www.flaticon.com/free-icons/html5" title="html5 icons">Html5 icons created by Freepik - Flaticon</a>*/
+        background-size: cover;
+        border: none;
+    }
+    .buttonDois {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+        margin: 10px;
+        background: url(javascript.png); /* <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Freepik - Flaticon</a> */
+        background-size: cover;
+        border: none;
+    }
+    .buttonTres {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+        margin: 10px;
+        background: url(react.png); /* <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>*/
+        background-size: cover;
+        border: none;
+    }
+    .buttonQuatro {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+        margin: 10px;
+        background: url(github.png); /* <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a>*/
+        background-size: cover;
+        border: none;
+    }
+    .buttonCinco {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+        margin: 10px;
+        background: url(database.png); /* <a href="https://www.flaticon.com/free-icons/data" title="data icons">Data icons created by Freepik - Flaticon</a>*/
+        background-size: cover;
+        border: none;
+    }
+    .buttonSeis {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+        margin: 10px;
+        background: url(english.png); /* <a href="https://www.flaticon.com/free-icons/english" title="english icons">English icons created by Freepik - Flaticon</a>*/
+        background-size: cover;
+        border: none;
+    }
+    .habilidadeMouse {
+        margin-top: 40px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1px;
+        max-width: 300px;
+        font-family: 'Play', sans-serif;
+        font-size: 20px;
+    }
+
+    #navbarEnd {
+        margin-top: 100px;
+        list-style: none;
+        display: flex;
+        padding: 30px;
+        font-size: 22px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

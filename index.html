@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Louise</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Play&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="#habilidades"><li>
+                <button class="navButtonHab">Habilidades</button>
+            </li></a>
+
+            <li>
+                <a href="#projetos"><button class="navButton">Projetos</button></a>
+            </li>
+
+            <a href="#sobreMin"><li>
+                <button class="navButton">Sobre Mim</button>
+            </li></a>
+
+            <a href="#navbar"><li>
+                <button class="navButton">Início</button>
+            </li></a>
+        </nav>
+    </header>
+    <section id="inicio">
+        <div class="itensInicio">
+            <h2>Louise Carvalho</h2><br>
+            <h1>Técnica em TI</h1>
+            <h1>Desenvolvedora Front-end Jr</h1>
+            <a href="https://www.linkedin.com/in/louise-matos-carvalho-0682911b6/" target="_blank">
+                <button class="linkedin" type="button">Linkedin</button>
+            </a>
+            
+            <a href="https://github.com/LoLi-Prompt" target="_blank">
+                <button class="github" type="button">GitHub</button>
+            </a>
+        </div>
+        <div class="imagemInicio">
+            <img class="perfil1" src="png_20220105_204610_0000-removebg-preview.png" alt="imagem">
+        </div>
+    </section>
+
+    <section id="sobreMin">
+        <div class="sobreMin_2">
+                <div class="imagemSobre">
+                    <img class="perfil2" src="perfil_sobreMin.png" alt="imagem">
+                </div>
+            <div class="itensSobreMin">
+                <h1>SOBRE MIM</h1>
+                <p class="paragrafoSobre">
+                    Olá! Prazer, sou Louise! Sou uma garota trans e estudante de tecnologia a procura de
+                    um emprego para pagar minha faculdade, no final de 2021 conclui um curso de nível técnico em TI.<br>
+                    Atualmente estou estudando as tecnologias HTML5, CSS3, Javascript, a biblioteca ReactJs e também um pouco da linguagem SQL para realização de queries simples de checagem e inserção de dados.
+                </p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="intersection">
+        <p class="inter-texto">A palavra convence, mas o exemplo arrasta..</p>
+    </section>
+
+    <section id="projetos">
+        <h1>PROJETOS</h1>
+        <nav class="projetosNav">
+            <a href="https://loli-prompt.github.io/Clone-Netflix/#" target="_blank">
+                <li><button onmouseenter="projetosInfoNetflix()" onmouseleave="projetoInfoPadrao()" class="buttonProjNetflix">Netflix Clone</button></li>
+            </a>
+            <a href="https://loli-prompt.github.io/Instagram-landing-page/" target="_blank">
+                <li><button onmouseenter="projetosInfoInsta()" onmouseleave="projetoInfoPadrao()" class="buttonProjInsta">Instagram Clone</button></li>
+            </a>
+            <a href="https://loli-prompt.github.io/Snake-Javascript-DIO/" target="_blank">
+                <li><button onmouseenter="projetosInfoSnake()" onmouseleave="projetoInfoPadrao()" class="buttonProjSnake">Snake Javascript</button></li>
+            </a>
+        </nav>
+        <div class="textoProjeto">
+            <p>Passe o mouse para ler uma descrição, clique para abrir em nova janela!</p>
+        </div>
+    </section>
+
+    <section id="intersection">
+        <p class="inter-texto">Nada tão eterno quanto uma gambiarra momentânea..</p>
+    </section>
+
+    <section id="habilidades">
+        <h1>HABILIDADES</h1>
+        <div class="containerHabilidade">
+            <div class="listaHabilidade">
+                <nav>
+                    <ul class="listaHabilidade">
+                        <li><button onmouseenter="textoHtml()" onmouseleave="textoPadrao()" class="buttonUm"></button></li>
+                        <li><button onmouseenter="textoJavascript()" onmouseleave="textoPadrao()" class="buttonDois"></button></li>
+                        <li><button onmouseenter="textoReact()" onmouseleave="textoPadrao()" class="buttonTres"></button></li>
+                        <li><button onmouseenter="textoGithub()" onmouseleave="textoPadrao()" class="buttonQuatro"></button></li>
+                        <li><button onmouseenter="textoMysql()" onmouseleave="textoPadrao()" class="buttonCinco"></button></li>
+                        <li><button onmouseenter="textoEnglish()" onmouseleave="textoPadrao()" class="buttonSeis"></button></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="habilidadeMouse">
+                <p>Passe o mouse para ler a descrição!</p>
+            </div>
+        </div>
+        <nav id="navbarEnd">
+            <a href="#navbar"><li>
+                <button class="navButtonEnd">Início</button>
+            </li></a>
+        </nav>
+    </section>
+        
+
+    <footer>
+        <h3>&copy; 2022 Desenvolvido por Louise Carvalho</h3>
+        <p>Front-end Developer</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
